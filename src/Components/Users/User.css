@@ -1,0 +1,32 @@
+.useritem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 25px;
+  margin: 15px;
+  border-radius: 20px;
+  background-color: teal;
+  color: white;
+  width: 400px;
+  font-size: 20px;
+}
+
+.userHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.users{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

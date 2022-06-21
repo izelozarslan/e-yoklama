@@ -1,0 +1,53 @@
+.lesson_list {
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.lessons{
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.joinedStudents {
+  cursor: pointer;
+  background-color: greenyellow;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.otherStudents {
+  cursor: pointer;
+  background-color: rgb(47, 213, 255);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.studentList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.lessonItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(255, 223, 197);
+  padding: 25px;
+  border-radius: 10px;
+  margin: 25px;
+  width: 500px;
+}
